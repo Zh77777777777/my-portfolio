@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    section {
+      padding: 10px;
+    }
+    .card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="bg-white text-center">
+    <div class="container">
+      <img src="https://i.pinimg.com/736x/1d/f8/7b/1df87bb42ad17f82083a9b97a409937b.jpg"
+           alt="My Photo"
+           class="img-fluid shadow mb-4"
+           width="200"> 
+      <h1 class="mb-3">Hello! My name is Zhanel</h1>
+      <p class="lead">🌐 Digital & International Journalist</p>
+      <p class="lead">🌍 Focused on youth, society, positive change</p>
+      <p class="lead">🎤 Fluent: KZ, RU, EN, FR, DE, IT, ES, TR</p>
+      <p class="lead">🕊️ Peace Ambassador</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">My Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Project number 1</h5>
+              <p class="card-text">This is my academic project created during school. It helped me develop basic research and presentation skills.</p>
+              <a href="#" class="btn btn-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Project number 2</h5>
+              <p class="card-text">A project focused on environmental awareness, sustainability, and promoting eco-friendly alternatives in everyday life.</p>
+              <a href="#" class="btn btn-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Project project number 3</h5>
+              <p class="card-text">A creative project dedicated to literature, reviewing books, and encouraging youth to read more.</p>
+              <a href="#" class="btn btn-primary btn-sm">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="text-center">
+    <div class="container">
+      <h2 class="mb-4">Contacts</h2>
+      <p>Email: zhanel@gmail.com</p>
+      <p>Telegram: @zhanel</p>
+      <p>
+        <a href="https://github.com/yourusername" target="_blank" class="btn btn-dark btn-sm">My GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Zhanel </small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
